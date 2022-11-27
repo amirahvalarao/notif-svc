@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p>Hi <span th:text="${deliveryManagerName}"></span>,</p>
+    <p>
+        An issue has been raised by the client with the following information:<br>
+        Module name: <span th:text="${moduleName}"></span><br>
+        Page name: <span th:text="${pageName}"></span><br>
+        Description: <span th:text="${description}"></span><br>
+    </p>
+    <p>Please create an incident in relation to this report. </p>
+    <p>Thank you. </p>
+</body>
+</html>
